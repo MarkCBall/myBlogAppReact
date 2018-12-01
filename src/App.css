@@ -30,3 +30,22 @@
     transform: rotate(360deg);
   }
 }
+
+.blog-grids .grid {
+  background-color: #fff;
+  width: calc(33.33% - 30px);
+  float: left;
+  padding: 15px;
+  margin: 20px 15px 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.entry-body {
+  padding: 27px 10px;
+}
+
+.read-more-date {
+  position: relative;
+}
