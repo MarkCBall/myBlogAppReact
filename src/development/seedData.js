@@ -4,17 +4,8 @@ var seedData = [
       tags: ["blockchain", "web development"],
       created_at: "2018-10-16T23:45:24.565Z",
       slug: "my-first-blog-post",
-      content: "FIRST BLOG'S DATALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \
-                 tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc \
-                 non blandit. Diam in arcu cursus euismod. Imperdiet nulla malesuada pellentesque \
-                 elit eget gravida. Sollicitudin tempor id eu nisl nunc mi ipsum. Tincidunt eget nullam \
-                 non nisi est sit amet facilisis. Volutpat est velit egestas dui id ornare arcu odio. \
-                 Nulla at volutpat diam ut venenatis tellus in metus. Commodo odio aenean sed adipiscing diam. \
-                 Tellus mauris a diam maecenas sed. Nisl rhoncus mattis rhoncus urna neque viverra justo. \
-                 Tempor orci dapibus ultrices in iaculis nunc. Sit amet nisl suscipit adipiscing.",
-      summary: "FIRST BLOG'S DATALoremLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\
-                  tempor incididunt ut labore et dolore magna aliqua.Nibh tellus molestie nunc\
-                non blandit.",
+      content: "FIRST BLOG'S DATA Blockchain formation. The main chain (black) consists of the longest series of blocks from the genesis block (green) to the current block. Orpblockchain is resistant to modification of the data. It is an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way.[7] For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer network collectively adhering to a protocol for inter-node communication and validating new blocks. Once recorded, the data in any given block cannot be altered retroactively without alteration of all subsequent blocks, which requires consensus of the network majority. Although blockchain records are not unalterable, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance. Decentralized consensus has therefore been claimed with a blockchain.[8]han blocks (purple) exist outside of the main chain",
+      summary: "FIRST BLOG'S DATA LoremLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Nibh tellus molestie nunc non blandit.",
       image_url: "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/01/Blockchain-Funds.png"
     },
     {
@@ -23,17 +14,8 @@ var seedData = [
         tags: ["smart contracts"],
         created_at: "2018-10-16T23:45:24.565Z",
         slug: "my-second-blog-post",
-        content: "SECOND BLOG'S DATALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \
-                 tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc \
-                 non blandit. Diam in arcu cursus euismod. Imperdiet nulla malesuada pellentesque \
-                 elit eget gravida. Sollicitudin tempor id eu nisl nunc mi ipsum. Tincidunt eget nullam \
-                 non nisi est sit amet facilisis. Volutpat est velit egestas dui id ornare arcu odio. \
-                 Nulla at volutpat diam ut venenatis tellus in metus. Commodo odio aenean sed adipiscing diam. \
-                 Tellus mauris a diam maecenas sed. Nisl rhoncus mattis rhoncus urna neque viverra justo. \
-                 Tempor orci dapibus ultrices in iaculis nunc. Sit amet nisl suscipit adipiscing.",
-        summary: "SECOND BLOG'S DATALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\
-                  tempor incididunt ut labore et dolore magna aliqua.Nibh tellus molestie nunc\
-                non blandit.",
+        content: "SECOND BLOG'S DATA By design, a blockchain is resistant to modification of the data. It is an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way.[7] For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer network collectively adhering to a protocol for inter-node communication and validating new blocks. Once recorded, the data in any given block cannot be altered retroactively without alteration of all subsequent blocks, which requires consensus of the network majority. Although blockchain records are not unalterable, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance. Decentralized consensus has therefore been claimed with a blockchain.[8]",
+        summary: "SECOND BLOG'S DATALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Nibh tellus molestie nunc non blandit.",
         image_url: "https://s3.amazonaws.com/influencive.com/wp-content/uploads/2018/02/02225414/blockchainis.jpg"
     }]
 

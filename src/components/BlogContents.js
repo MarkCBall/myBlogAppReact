@@ -8,53 +8,35 @@ class BlogContents extends Component {
         super(props)
         this.state ={
           posts:seedData,
-          //activeSelection:null,
           activeSelection:1
         }
-        // console.log(this.state.posts[0])
-        //console.log("hello")
       }
-    
     handleSelection(e) {
         if (this.state.activeSelection == null){
             this.setState({   activeSelection : e.target.id  } )
-            console.log("state set to x")
+            console.log("state set to " + e.target.id)
         }
         else{
             this.setState({   activeSelection : null  } )
             console.log("state set to null")
         }
     } 
-
-
-
-    
-    
     render() {
         return (
-
-            // {var content = "text ffulled from this.state.seedData[X].content where x matches activeSelection"}
-
-
             <div>
             {(this.state.activeSelection == null) ? 
-
+                //if no blog is selected, browse all blog posts
                 <BrowseBlogs 
                     handleSelection={this.handleSelection.bind(this)}
                     posts={this.state.posts} 
                 />
-
-                ://else activeSelection is not null 
-    
+                ://else show  single blog post indicated by activeSelection
                 <SingleBlog 
                     handleSelection={this.handleSelection.bind(this)}
                     activeSelection={this.state.activeSelection}
                     post={this.state.posts[this.state.activeSelection]}
                 />
             }
-                
-
-
             </div>
         );
     };

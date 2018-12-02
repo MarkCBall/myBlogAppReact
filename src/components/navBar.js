@@ -10,13 +10,13 @@ class navBar extends Component {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul className="navbar-nav ">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">MyBlogApp <span className="sr-only">(current)</span></a>
+                            <button className="nav-link">MyBlogApp <span className="sr-only">(current)</span></button>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Login</a>
+                            <button className="nav-link">Login</button>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Logout</a>
+                            <button className="nav-link">Logout</button>
                         </li>
                     </ul>
                 </div>

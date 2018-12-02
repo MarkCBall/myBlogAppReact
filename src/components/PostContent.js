@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 
 
 class postContent extends Component {
-    constructor(props){
-        super(props)
-        // console.log("postcontent sees post"+this.props.post)
-        // console.log(this.props.post.content)  
-    }
+
     
     render() {
         return (

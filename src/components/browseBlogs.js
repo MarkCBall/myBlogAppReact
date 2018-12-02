@@ -9,7 +9,6 @@ class browseBlog extends Component {
     render() {
         return (
             <div>
-
             {this.props.posts.map((post) => 
                 <SingleBlog 
                     handleSelection={this.props.handleSelection}
@@ -18,8 +17,6 @@ class browseBlog extends Component {
                     id={post.id}
                 />
             )}
-
-
             </div>
         );
     };
