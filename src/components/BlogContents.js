@@ -9,7 +9,7 @@ class BlogContents extends Component {
         this.state ={
           posts:seedData,
           //activeSelection:null,
-          activeSelection:"X"
+          activeSelection:"My blogggg"
         }
         //console.log(this.state.posts[1])
         //console.log("hello")
@@ -17,7 +17,7 @@ class BlogContents extends Component {
     
     handleSelection() {
         if (this.state.activeSelection == null){
-            this.setState({   activeSelection : "X"  } )
+            this.setState({   activeSelection : "My blogggg"  } )
             console.log("state set to x")
         }
         else{
@@ -33,6 +33,9 @@ class BlogContents extends Component {
     render() {
         return (
 
+            // {var content = "text ffulled from this.state.seedData[X].content where x matches activeSelection"}
+
+
             <div>
             {(this.state.activeSelection == null) ? 
 
@@ -42,6 +45,8 @@ class BlogContents extends Component {
     
                 <SingleBlog 
                     handleSelection={this.handleSelection.bind(this)}
+                    activeSelection={this.state.activeSelection}
+                    content="text fulled from this.state.seedData[X].content where x matches activeSelection"
                 />
             }
                 
