@@ -11,7 +11,7 @@ class BlogContents extends Component {
           //activeSelection:null,
           activeSelection:"My blogggg"
         }
-        //console.log(this.state.posts[1])
+        console.log(this.state.posts[0])
         //console.log("hello")
       }
     
@@ -39,14 +39,17 @@ class BlogContents extends Component {
             <div>
             {(this.state.activeSelection == null) ? 
 
-                <BrowseBlogs handleSelection={this.handleSelection.bind(this)} />
+                <BrowseBlogs 
+                    handleSelection={this.handleSelection.bind(this)}
+                    posts={this.state.posts} 
+                />
 
                 ://else activeSelection is not null 
     
                 <SingleBlog 
                     handleSelection={this.handleSelection.bind(this)}
                     activeSelection={this.state.activeSelection}
-                    content="text fulled from this.state.seedData[X].content where x matches activeSelection"
+                    post={this.state.posts[0]}
                 />
             }
                 

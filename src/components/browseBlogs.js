@@ -9,11 +9,15 @@ class browseBlog extends Component {
     render() {
         return (
             <div>
-            {/* <p>browseblogs first</p> */}
-            <SingleBlog handleSelection={this.props.handleSelection}/>
 
-            {/* <p>browseblogs second</p> */}
-            <SingleBlog/>
+            {this.props.posts.map((postx) => 
+                <SingleBlog 
+                    handleSelection={this.props.handleSelection}
+                    post={postx}
+                />
+            )}
+
+
             </div>
         );
     };
