@@ -11,7 +11,7 @@ class singleBlog extends Component {
                     {(this.props.activeSelection == null) ?
                     // If no selection, clickable title to specific post and only render the summary
                     //DISPLAY ALL POSTS
-                        <div>
+                        <div width="50%">
                             <h3><button id={this.props.id} onClick={this.props.handleSelection}>{this.props.post.title}</button></h3>
                             <PostContent  
                                 post={(({ summary }) => ({ summary }))(this.props.post)} 

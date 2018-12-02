@@ -8,15 +8,21 @@ class browseBlog extends Component {
 
     render() {
         return (
-            <div>
-            {this.props.posts.map((post) => 
-                <SingleBlog 
-                    handleSelection={this.props.handleSelection}
-                    post={post}
-                    key={post.id}
-                    id={post.id}
-                />
-            )}
+            <div className="container">
+            <div className="row">
+                
+                    {this.props.posts.map((post) =>
+                        <div className="col-sm-4"> 
+                        <SingleBlog 
+                            handleSelection={this.props.handleSelection}
+                            post={post}
+                            key={post.id}
+                            id={post.id}
+                        />
+                        </div>
+                    )}
+                
+            </div>
             </div>
         );
     };
