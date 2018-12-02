@@ -10,10 +10,12 @@ class browseBlog extends Component {
         return (
             <div>
 
-            {this.props.posts.map((postx) => 
+            {this.props.posts.map((post) => 
                 <SingleBlog 
                     handleSelection={this.props.handleSelection}
-                    post={postx}
+                    post={post}
+                    key={post.id}
+                    id={post.id}
                 />
             )}
 

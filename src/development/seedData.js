@@ -1,5 +1,6 @@
 var seedData = [
     { title: "My First Blog Post",
+      id:0,
       tags: ["blockchain", "web development"],
       created_at: "2018-10-16T23:45:24.565Z",
       slug: "my-first-blog-post",
@@ -18,6 +19,7 @@ var seedData = [
     },
     {
         title: "My Second Blog Post",
+        id:1,
         tags: ["smart contracts"],
         created_at: "2018-10-16T23:45:24.565Z",
         slug: "my-second-blog-post",
@@ -32,7 +34,7 @@ var seedData = [
         summary: "SECOND BLOG'S DATALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\
                   tempor incididunt ut labore et dolore magna aliqua.Nibh tellus molestie nunc\
                 non blandit.",
-        image_url: "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/01/Blockchain-Funds.png"
+        image_url: "https://s3.amazonaws.com/influencive.com/wp-content/uploads/2018/02/02225414/blockchainis.jpg"
     }]
 
     export default seedData;

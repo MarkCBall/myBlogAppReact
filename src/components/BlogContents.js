@@ -9,15 +9,15 @@ class BlogContents extends Component {
         this.state ={
           posts:seedData,
           //activeSelection:null,
-          activeSelection:"My blogggg"
+          activeSelection:1
         }
-        console.log(this.state.posts[0])
+        // console.log(this.state.posts[0])
         //console.log("hello")
       }
     
-    handleSelection() {
+    handleSelection(e) {
         if (this.state.activeSelection == null){
-            this.setState({   activeSelection : "My blogggg"  } )
+            this.setState({   activeSelection : e.target.id  } )
             console.log("state set to x")
         }
         else{
@@ -49,7 +49,7 @@ class BlogContents extends Component {
                 <SingleBlog 
                     handleSelection={this.handleSelection.bind(this)}
                     activeSelection={this.state.activeSelection}
-                    post={this.state.posts[0]}
+                    post={this.state.posts[this.state.activeSelection]}
                 />
             }
                 

@@ -13,10 +13,12 @@ class singleBlog extends Component {
                 <div className="col col-xs-12">
                     {(this.props.activeSelection == null) ?
                     // If no selection, clickable title to specific post and only render the summary
+                    //DISPLAY ALL POSTS
                         <div>
-                            <h3><a href="#" onClick={this.props.handleSelection}>{this.props.post.title}</a></h3>
+                            <h3><a href="#" id={this.props.id} onClick={this.props.handleSelection}>xXxxxx{this.props.post.title}</a></h3>
                             <PostContent  
                                 post={(({ summary }) => ({ summary }))(this.props.post)} 
+                                
                             />
                         </div>
                     //else display title as text and include a back button to all posts
